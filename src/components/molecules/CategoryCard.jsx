@@ -16,8 +16,8 @@ const CategoryCard = ({ category, isActive, onClick, taskCount }) => {
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2">
           <div
-            className="w-3 h-3 rounded-full"
-            style={{ backgroundColor: isActive ? "white" : category.color }}
+className="w-3 h-3 rounded-full"
+            style={{ backgroundColor: isActive ? "white" : (category.color_c || category.color) }}
           />
           <span className={cn(
             "font-medium transition-colors",

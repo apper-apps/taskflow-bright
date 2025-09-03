@@ -75,9 +75,9 @@ const TaskForm = ({ task, categories, onSubmit, onCancel, isLoading }) => {
             required
           >
             <option value="">Select category</option>
-            {categories.map(category => (
-              <option key={category.Id} value={category.name}>
-                {category.name}
+{categories.map(category => (
+              <option key={category.Id} value={category.Name || category.name}>
+                {category.Name || category.name}
               </option>
             ))}
           </Select>

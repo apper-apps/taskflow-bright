@@ -80,13 +80,13 @@ const CategorySidebar = ({ selectedCategory, onCategorySelect, tasks = [] }) => 
             taskCount={getTotalTasks()}
           />
           
-          {categories.map(category => (
+{categories.map(category => (
             <CategoryCard
               key={category.Id}
               category={category}
-              isActive={selectedCategory === category.name}
-              onClick={() => onCategorySelect(category.name)}
-              taskCount={getTaskCountForCategory(category.name)}
+              isActive={selectedCategory === (category.Name || category.name)}
+              onClick={() => onCategorySelect(category.Name || category.name)}
+              taskCount={getTaskCountForCategory(category.Name || category.name)}
             />
           ))}
         </div>

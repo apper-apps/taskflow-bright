@@ -17,9 +17,9 @@ const TaskStats = ({ tasks = [] }) => {
     }).length
 
     const overdueTasks = tasks.filter(task => {
-      try {
-        const dueDate = parseISO(task.dueDate)
-        return isPast(dueDate) && !isToday(dueDate) && !task.completed
+try {
+        const dueDate = parseISO(task.due_date_c || task.dueDate)
+        return isPast(dueDate) && !isToday(dueDate) && !(task.completed_c || task.completed)
       } catch {
         return false
       }

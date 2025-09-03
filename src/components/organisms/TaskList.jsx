@@ -74,14 +74,17 @@ const TaskList = ({
     }
   }
 
-  const filteredTasks = tasks.filter(task => {
+const filteredTasks = tasks.filter(task => {
+    const title = task.title_c || task.title || ""
+    const description = task.description_c || task.description || ""
     const matchesSearch = !searchTerm || 
-      task.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      task.description.toLowerCase().includes(searchTerm.toLowerCase())
+      title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      description.toLowerCase().includes(searchTerm.toLowerCase())
     
+    const category = task.category_c || task.category
     const matchesCategory = !selectedCategory || 
       selectedCategory === "All" || 
-      task.category === selectedCategory
+      category === selectedCategory
     
     return matchesSearch && matchesCategory
   })
