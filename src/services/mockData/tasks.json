@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "title": "Review project proposal",
+    "description": "Review the Q1 marketing proposal and provide feedback on budget allocation",
+    "category": "Work",
+    "priority": "high",
+    "dueDate": "2024-01-15",
+    "completed": false,
+    "createdAt": "2024-01-10T09:00:00Z"
+  },
+  {
+    "Id": 2,
+    "title": "Grocery shopping",
+    "description": "Buy ingredients for weekly meal prep including vegetables, proteins, and pantry staples",
+    "category": "Personal",
+    "priority": "medium",
+    "dueDate": "2024-01-14",
+    "completed": true,
+    "createdAt": "2024-01-12T14:30:00Z"
+  },
+  {
+    "Id": 3,
+    "title": "Call dentist appointment",
+    "description": "Schedule 6-month cleaning and checkup appointment",
+    "category": "Health",
+    "priority": "medium",
+    "dueDate": "2024-01-16",
+    "completed": false,
+    "createdAt": "2024-01-11T10:15:00Z"
+  },
+  {
+    "Id": 4,
+    "title": "Prepare presentation slides",
+    "description": "Create slides for Thursday's client meeting including market analysis and recommendations",
+    "category": "Work",
+    "priority": "high",
+    "dueDate": "2024-01-17",
+    "completed": false,
+    "createdAt": "2024-01-13T16:45:00Z"
+  },
+  {
+    "Id": 5,
+    "title": "Plan weekend trip",
+    "description": "Research hotels and activities for weekend getaway to San Francisco",
+    "category": "Personal",
+    "priority": "low",
+    "dueDate": "2024-01-20",
+    "completed": false,
+    "createdAt": "2024-01-12T11:20:00Z"
+  },
+  {
+    "Id": 6,
+    "title": "Update resume",
+    "description": "Add recent projects and achievements to professional resume",
+    "category": "Career",
+    "priority": "medium",
+    "dueDate": "2024-01-18",
+    "completed": false,
+    "createdAt": "2024-01-10T13:00:00Z"
+  },
+  {
+    "Id": 7,
+    "title": "Morning workout",
+    "description": "45-minute cardio and strength training session",
+    "category": "Health",
+    "priority": "high",
+    "dueDate": "2024-01-14",
+    "completed": true,
+    "createdAt": "2024-01-14T06:00:00Z"
+  },
+  {
+    "Id": 8,
+    "title": "Read quarterly report",
+    "description": "Review company's Q4 financial report and industry trends",
+    "category": "Work",
+    "priority": "low",
+    "dueDate": "2024-01-22",
+    "completed": false,
+    "createdAt": "2024-01-13T08:30:00Z"
+  }
+]
